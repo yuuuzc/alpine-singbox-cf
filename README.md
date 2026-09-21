@@ -1,4 +1,4 @@
-# NAT VPS Sing-box + Cloudflare Tunnel 一键部署
+# Alpine NAT VPS Sing-box + Cloudflare Tunnel 一键部署
 
 适用于 Alpine 容器 / Podman 运行环境，无 systemd 依赖。
 
@@ -15,13 +15,13 @@ sh -c "$(curl -fsSL [https://raw.githubusercontent.com/](https://raw.githubuserc
 
 ### 方式 2：非交互式（直接携带 Token 参数）
 ```sh
-sh -c "$(curl -fsSL [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)<你的GitHub用户名>/<你的仓库名>/main/install.sh)" -- "你的Cloudflare_Token"
+sh -c "$(curl -fsSL [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)yuuuzc/alpine-singbox-cf/main/install.sh)" -- "你的Cloudflare_Token"
 ```
 
 ## 国内网络镜像加速（备选）
 如果国内机器访问 `raw.githubusercontent.com` 速度慢或被阻断，可使用代理加速源：
 ```sh
-sh -c "$(curl -fsSL [https://ghproxy.net/https://raw.githubusercontent.com/](https://ghproxy.net/https://raw.githubusercontent.com/)<你的GitHub用户名>/<你的仓库名>/main/install.sh)"
+sh -c "$(curl -fsSL [https://ghproxy.net/https://raw.githubusercontent.com/](https://ghproxy.net/https://raw.githubusercontent.com/)yuuuzc/alpine-singbox-cf/main/install.sh)"
 ```
 
 ## 运维命令
